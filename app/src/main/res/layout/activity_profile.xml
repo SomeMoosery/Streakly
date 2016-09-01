@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="carter.streakly.Profile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/logo_trophy_room"
+        android:src="@drawable/streakly_full_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/coming_soon"
+        android:layout_alignBottom="@+id/logo_trophy_room"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Help build Streakly!"
+        android:id="@+id/assist_me"
+        android:layout_below="@+id/logo_trophy_room"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Find out more!!!"
+        android:id="@+id/learn_more"
+        android:layout_below="@+id/assist_me"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textSize="20dp"
+        android:background="@color/acceptColor"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

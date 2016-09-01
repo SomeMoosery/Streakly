@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/dialog_curve"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    >
+
+    <Button
+        android:id="@+id/yes_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".50"
+        android:textSize="25dp"
+        android:text="DELETE"
+        android:background="@drawable/deleted_streak"/>
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".50"
+        android:text="Back"
+        android:textSize="25dp"
+        android:background="@drawable/view_streak"/>
+</LinearLayout>

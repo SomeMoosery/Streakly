@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Streakly</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_all_streaks">AllStreaks</string>
+
+    <string name="title_activity_choose_date">ChooseDate</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string-array name="category_spinner_list">
+        <item>Health</item>
+        <item>Mental</item>
+        <item>Personal</item>
+        <item>Professional</item>
+        <item>Social</item>
+    </string-array>
+    <string name="title_activity_welcome_info">Welcome to Streakly!</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="quote_list">
+        <item>Laziness is nothing more than the habit of resting before you get tired - Jules Renard</item>
+        <item>Excellence is an art won by training and habituation - Aristotle</item>
+        <item>If you are going to achieve excellence in big things, you develop the habit in litle matters - Colin Powell</item>
+        <item>We are what we repeatedly do. Excellence, then, is not an act, but a habit - Aristotle</item>
+        <item>Creativity is a habit, and the best creativity is the result of good work habits - Twyla Tharp</item>
+        <item>Chains of habit are too light to be felt until they are too heavy to be broken - Warren Buffet</item>
+        <item>You need to put what you learn into practice and do it over and over again until it is a habit - Brett Hoebel</item>
+        <item></item>
+    </string-array>
+</resources>

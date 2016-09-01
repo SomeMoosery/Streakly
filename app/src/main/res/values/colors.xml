@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#43A047</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="healthColor">#FF5252</color>
+    <color name="mentalColor">#0277BD</color>
+    <color name="personalColor">#FFAB40</color>
+    <color name="professionalColor">#E040FB</color>
+    <color name="socialColor">#F4FF81</color>
+    <color name="acceptColor">#388E3C</color>
+    <color name="declineColor">#E53935</color>
+    <color name="backColor">#81C784</color>
+    <color name="white">#fff</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
